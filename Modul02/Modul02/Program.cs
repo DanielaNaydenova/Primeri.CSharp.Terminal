@@ -19,12 +19,19 @@ namespace Modul02
 			//Дефиниране на променливи
 			int a = 0, b = 0;
 			int sum = 0;
+			string program_name = "Модул02 - Примери";
+			string program_version = "1.0";
 
 			//Събиране на числа
 			a = 10;
 			b = 5;
 
 			sum = a + b;
+
+			//За програмата
+			Console.WriteLine (program_name); 
+			Console.WriteLine ("Версия: " + program_version + "\n\n");
+
 
 			//Писане в конзолата
 			Console.Write (a);
@@ -51,7 +58,8 @@ namespace Modul02
 			Console.WriteLine (a);
 
 			Console.WriteLine ("Стандартно делене: " + (14 / 4).ToString () ); // --> 2 (7/3 = 2,33333...)
-			Console.WriteLine ("Остатък от делене: " + (14 % 4).ToString () ); // --> 1 (1/3 = 0.33333)
+			Console.WriteLine ("Хващане на остатък: " + (14 % 4).ToString () ); // --> 1 (1/3 = 0.33333)
+
 
 		}
 	}
