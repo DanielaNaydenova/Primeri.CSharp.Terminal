@@ -19,19 +19,34 @@ namespace Modul04
 			Console.WriteLine ("Име".PadRight(12) + "Фамилия".PadRight (12) + "Възраст".PadRight (12));
 			Console.WriteLine ("=================================");
 
-			//Пример с while
+			//Пример с do... while
 			int i = 0;
-			while (i < _table.Length /3)
-			{
+			do {
+
 				Console.WriteLine (
 					_table[i, 0].PadRight(12) + 
 					_table[i, 1].PadRight (12) + 
 					_table[i, 2].PadRight (12)
 				);
-
-
 				i++;
-			}
+			}while (i < _table.Length / 3);
+
+
+
+
+			//Пример с while
+//			int i = 0;
+//			while (i < _table.Length /3)
+//			{
+//				Console.WriteLine (
+//					_table[i, 0].PadRight(12) + 
+//					_table[i, 1].PadRight (12) + 
+//					_table[i, 2].PadRight (12)
+//				);
+//
+//
+//				i++;
+//			}
 
 
 			//Пример с for
